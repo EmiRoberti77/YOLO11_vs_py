@@ -1,0 +1,1 @@
+yolo task = pose mode = predict model=yolo11n-pose.pt source='image.jpg'

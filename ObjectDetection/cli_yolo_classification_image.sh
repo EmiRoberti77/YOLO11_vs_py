@@ -1,0 +1,1 @@
+yolo task = classify mode = predict model=yolo11x-cls.pt source='image.jpg'

@@ -1,0 +1,1 @@
+yolo task=segment mode = predict model = yolo11n-seg.pt source = 'video.mp4'
