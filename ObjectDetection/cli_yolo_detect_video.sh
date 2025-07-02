@@ -1,0 +1,1 @@
+yolo task=detect mode = predict model = yolo11n.pt source = 'video.mp4'
