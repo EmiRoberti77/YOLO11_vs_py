@@ -1,3 +1,14 @@
 {
-  "cSpell.words": ["imread", "imshow", "ultralytics", "YOLO"]
+  "cSpell.words": [
+    "aeroplane",
+    "diningtable",
+    "imread",
+    "imshow",
+    "minimon",
+    "pottedplant",
+    "tvmonitor",
+    "ultralytics",
+    "xyxy",
+    "YOLO"
+  ]
 }
