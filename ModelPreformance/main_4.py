@@ -69,5 +69,8 @@ else:
       print("Could not read",video_path)
       break
 
+cap.release()
+cv2.destroyAllWindows()
+
 
     
