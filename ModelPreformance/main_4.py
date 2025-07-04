@@ -11,12 +11,6 @@ import requests
 # Load YOLO11 and preform object detection
 # Dataset classes reference https://gist.github.com/SrikarNamburu/0945de8f9a8714ec245dde3443e9d487
 # Add the classes parameters ( in this case class=0 is person and class=5 bus)
-# max_det = specify the max parameters ( 300 is max )
-# Add NMS IOU 'iou' adjust iou if there is issue with duplicate bounding boxes per detection
-# Add show True if you want image to appear
-# Add save_txt = True to save detection in a text file
-# Add save_crop = True to save just the detection cropped image
-
 # Load the model
 model = YOLO("yolo11s.pt")
 #load video resource
