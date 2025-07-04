@@ -1,0 +1,1 @@
+yolo task=detect mode=predict model=best.pt conf=0.25 source="PPE_Part2.mp4" save=True 
