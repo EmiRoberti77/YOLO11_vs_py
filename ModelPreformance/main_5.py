@@ -7,7 +7,7 @@ from coco_class_names import cocoClassNames
 import requests
 
 # Steps
-# Create video capture object with cv2
+# Create video capture from local device
 # Load YOLO11 and preform object detection
 # Dataset classes reference https://gist.github.com/SrikarNamburu/0945de8f9a8714ec245dde3443e9d487
 # Add the classes parameters ( in this case class=0 is person and class=5 bus)
@@ -30,7 +30,7 @@ else:
  
   count = 0
   ctime = 0
-  ptime = 0
+  ptime = time.time()
   while True:
     ret, image = cap.read()
     results = model(image, 
@@ -69,7 +69,7 @@ else:
       ptime = ctime
       fps_label = "FPS" + ":" + str(int(fps))
       cv2.rectangle(image, (10, 40), (200, 80), (0, 0, 0), -1)  # Background box
-      cv2.putText(image, fps_label, (10, 70), cv2.FONT_HERSHEY_PLAIN, 3, (255, 0, 255), 3)
+      cv2.putText(image, "EMI", (10, 70), cv2.FONT_HERSHEY_PLAIN, 3, (255, 0, 255), 3)
       # Display image
       cv2.imshow("Image", image)
       if cv2.waitKey(1) & 0xFF == ord('1'):
