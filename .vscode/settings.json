@@ -1,16 +1,20 @@
 {
   "cSpell.words": [
     "aeroplane",
+    "astype",
     "bytetrack",
     "diningtable",
     "Emiliano",
+    "hstack",
     "imread",
     "imshow",
     "minimon",
+    "polylines",
     "pottedplant",
     "ptime",
     "tvmonitor",
     "ultralytics",
+    "xywh",
     "xyxy",
     "YOLO"
   ]
