@@ -182,7 +182,9 @@ cv2.destroyAllWindows()
 
 ## 📸 Example Frame
 
-*(Add a real image here once a frame is captured from the output)*
+<img width="1105" alt="Screenshot 2025-07-07 at 19 17 43" src="https://github.com/user-attachments/assets/52ec8d4d-e0da-40d9-97f1-624405fc0d9d" />
+
+<img width="1105" alt="Screenshot 2025-07-07 at 19 17 52" src="https://github.com/user-attachments/assets/4ed570fd-4b3e-46ee-bff6-b4ab89b285c4" />
 
 ---
 
