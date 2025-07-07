@@ -10,7 +10,7 @@ import math
 import time
 
 # Load the video file
-cap = cv2.VideoCapture("../Resources/Videos/car3.mp4")
+cap = cv2.VideoCapture("../Resources/Videos/car4.mp4")
 model = YOLO("./weights/best.pt")
 
 count = 0
