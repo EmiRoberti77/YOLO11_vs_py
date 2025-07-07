@@ -17,7 +17,10 @@ frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
 fps = cap.get(cv2.CAP_PROP_FPS)
 
-output = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), fps, (frame_width, frame_height))
+output = cv2.VideoWriter('output.avi', 
+                         cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 
+                         fps, 
+                         (frame_width, frame_height))
 
 #FPS
 ptime = 0
