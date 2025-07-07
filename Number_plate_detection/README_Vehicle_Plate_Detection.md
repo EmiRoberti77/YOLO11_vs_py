@@ -1,5 +1,5 @@
 
-# 🚘 Vehicle Number Plate Detection with Custom YOLO Model and OCR
+# 🚘 Vehicle Number Plate Detection
 
 **Author: Emiliano Roberti**  
 This project demonstrates real-time detection of vehicle number plates using a **custom-trained YOLO model** (`best.pt`) for improved accuracy, along with **EasyOCR** for optical character recognition of the plate text. The output includes a **picture-in-picture (PiP)** preview of the detected plate and a display of the recognized text directly on the video.
