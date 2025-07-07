@@ -23,7 +23,7 @@ pip install opencv-python ultralytics easyocr
 ```
 
 Ensure you have:
-- A trained YOLOv8-compatible model (`./weights/best.pt`) optimized to detect number plates.
+- A trained YOLOv8-compatible / YOLOv11 model (`./weights/best.pt`) optimized to detect number plates.
 - A sample video (`car4.mp4`) located in `../Resources/Videos/`.
 
 ---
@@ -38,7 +38,7 @@ import easyocr
 import cv2
 import math, time
 ```
-- `ultralytics`: For YOLOv8 object detection.
+- `ultralytics`: For YOLOv11 object detection.
 - `easyocr`: For Optical Character Recognition.
 - `cv2`: OpenCV, used for video handling and frame processing.
 - `math` and `time`: For rounding values and measuring FPS.
