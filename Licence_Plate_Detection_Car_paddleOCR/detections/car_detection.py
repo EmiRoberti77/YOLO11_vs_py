@@ -35,6 +35,7 @@ class CarDetection:
         car_list.append(r)
     return car_list
   
+  
   def draw_bboxes(self, video_frames, car_detections):
     output_video_frames = []
     for frame, car_list in zip(video_frames, car_detections):
