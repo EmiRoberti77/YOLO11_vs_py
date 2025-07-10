@@ -24,7 +24,7 @@ class CarDetection:
     
 
   def detect_frame(self, frame):
-    results = self.model.predict(frame, iou=0.2, conf=0.30)[0]
+    results = self.model.predict(frame, iou=0.1, conf=0.30)[0]
     id_name_dict = results.names
     car_list = []
     for box in results.boxes:
@@ -33,7 +33,6 @@ class CarDetection:
       cls_name = id_name_dict[cls_id]
       if cls_name == "car":
         car_list.append(r)
-
     return car_list
   
   def draw_bboxes(self, video_frames, car_detections):
@@ -44,7 +43,7 @@ class CarDetection:
         cv2.putText(frame, 
                     text=f"Car", 
                     org=(int(x1), int(y1-10)), 
-                    fontFace=cv2.FONT_HERSHEY_PLAIN,
+                    fontFace=cv2.FONT_HERSHEY_SIMPLEX,
                     fontScale=0.9,
                     color=(0,255,0),
                     thickness=2)
@@ -53,5 +52,5 @@ class CarDetection:
                       (int(x2), int(y2)),
                       (255, 255, 0),
                       2)
-        output_video_frames.append(frame)
-      return output_video_frames
+      output_video_frames.append(frame)
+    return output_video_frames
