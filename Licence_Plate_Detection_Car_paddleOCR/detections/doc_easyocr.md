@@ -120,4 +120,4 @@ This loads `car3.mp4`, processes every frame for plate detection and OCR, then s
 
 Emiliano Roberti
 
-Custom YOLOv8 model trained specifically for license plate detection to maximize recognition accuracy in traffic scenes.
+Custom YOLOv11 model trained specifically for license plate detection to maximize recognition accuracy in traffic scenes.
